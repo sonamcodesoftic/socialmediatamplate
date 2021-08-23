@@ -15,6 +15,9 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">        
         <style>
+            body{
+                overflow-x: hidden!important;
+            }
             .demo-button a
             {
                 color:#00ABBD !important;
@@ -37,17 +40,19 @@
             /* Banner Css Start */
               .banner img
               {
-                 float:right!important; 
+                 /* float:right!important;  */
               }
               .banner{
                   color:#000000;
                   background-image: url('images/banner.png');
                   width: 100%;
                   height: auto;
-                  background-size: cover;
+                  background-size: cover!important;
                   background-repeat: no-repeat;
                   margin-bottom: 10%;
                   text-align:right;
+                  float: right;
+
               }
               
               .banner-title 
@@ -158,6 +163,26 @@
                }
                @media only screen and (max-width: 768px)
                {
+                   .get_button button
+                   {
+                       margin-right: 0px!important;
+                   }
+                  .quote-footer h4
+                  {
+                     font-size:10px!important;
+                  }
+                  .quote-footer p
+                  {
+                     font-size:10px!important;
+                  }
+                  .unorder-list li
+                  {
+                     margin-left: -15%!important;
+                  }
+                   .last-content-row
+                   {
+                    margin-right:0px!important;
+                   }
                  .last-row
                  {
                     
@@ -976,7 +1001,7 @@ blockquote hr{
 
 
           <div class="banner">
-               <div class="row ">
+               <div class="row last-content-row">
                   <div class="col-md-4 col-sm-12">
                      
                   </div>
@@ -994,9 +1019,9 @@ blockquote hr{
 
                   </div>
                   <div class="col-md-4 mb-4 col-sm-12 mt-3">
-                     <ul>
+                     <ul class="unorder-list">
                          <li>
-                             <a href="" class=""><img src="images/facebook.svg" alt="" class="ml-3"></a>
+                             <a href="" ><img src="images/facebook.svg" alt="" class="ml-3"></a>
                              <a href="" ><img src="images/twitter.svg" alt="" class="ml-3"></a>
                              <a href=""><img src="images/Linkedin.svg" alt="" class="ml-3"></a>
                              <a href=""><img src="images/youtube.svg" alt="" class="ml-3"></a>
