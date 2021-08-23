@@ -1,0 +1,1422 @@
+<html>
+    <head>
+        <title>Social Media and Chatboot</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+        <link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.css" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">        
+        <style>
+            .demo-button a
+            {
+                color:#00ABBD !important;
+                background-color:#ffffff;
+                font-size: 15px;
+                font-weight: 600 !important;
+            }
+            .demo-button{
+                border:none;
+            }
+            .navbar
+            {
+                background-color:#00ABBD;
+            }
+            .navbar a{
+                color:#272727;
+                font-weight: 498;
+            }
+
+            /* Banner Css Start */
+              .banner img
+              {
+                 float:right!important; 
+              }
+              .banner{
+                  color:#000000;
+                  background-image: url('images/banner.png');
+                  width: 100%;
+                  height: auto;
+                  background-size: cover;
+                  background-repeat: no-repeat;
+                  margin-bottom: 10%;
+                  text-align:right;
+              }
+              
+              .banner-title 
+              {
+                font-weight: 580;
+                font-family: 'Lato', sans-serif !important;
+                color:#ffffff;
+              }
+              .banner-content
+              {
+                  margin-right:8px;
+                  margin-top:18%;
+                  font-family: 'Lato', sans-serif;
+              }
+              .banner-content p
+              {
+                color:#ffffff;
+                margin-top:40px; 
+              }
+              .get_button button{
+                  margin-right:20px!important;
+              }
+
+              .content
+              {
+                  text-align: right!important;
+              }
+              
+             .centered 
+             {
+               position: absolute;
+               top: 78%;
+               left: 64%;
+               transform: translate(-3%, -90%);
+            }
+            .centered-last-sec
+            {
+                position: absolute;
+                top: 100%;
+                left: 32%;
+                transform: translate(-3%, -90%);
+            }
+            .centered h1
+            {
+                font-size:37px;
+                font-family: 'Lato', sans-serif;
+                font-weight: 700;
+                color: #ffffff;
+                position: relative;
+            }
+            .centered p
+            {
+                font-size:15px;
+                font-family: 'Lato', sans-serif;
+                color: #ffffff;
+                font-weight: 400;
+            }
+            svg{
+                color:#ffffff;
+                height: 30px;
+                width: 30px;
+            }
+            .fa-twitter
+            {
+                color:#018eae;
+            }
+            .circle
+            {
+              color:#018eae!important;
+            }
+             ul
+            {
+              list-style: none;
+            }
+            .start-button
+            {
+               margin-left:449px;
+            }
+            
+            /* Banner Css End */
+
+            /* content Section Start*/
+               .text-title p
+               {
+                   width :70%;
+                   color: #5D5F5F!important;
+               }
+               .text-title h1
+               {
+                   font-weight: 580;
+               }
+               .text-title
+               {
+                font-family: 'Lato', sans-serif;
+                
+               }
+               .getstart-button
+               {
+                   border:1px;
+                   box-shadow: 1px 6px 9px 3px #5D5F5F;
+                   color: #018eae;
+               }
+               .banner-button
+               {
+                   border:1px;
+                    font-weight: 600;
+                   color: #018eae;
+               }
+               @media only screen and (max-width: 768px)
+               {
+                 .last-row
+                 {
+                    
+                     margin-right:0px!important;
+                 }
+                  .banner-title
+                  {
+                      font-size:40px!important;
+                  }
+                 .get_button button
+                 {
+                     /* margin-top: -23%!important; */
+                 }
+                .spotify
+                   {
+                       visibility: hidden;
+                   }   
+                .banner{
+                  color:#000000;
+                  background-image: url('images/phonebanner.png');
+                  width: 100%;
+                  height: auto;
+                  background-size: cover;
+                  background-repeat: no-repeat;
+                  margin-bottom: 10%;
+                  padding-bottom: 20%;
+              }
+
+                   
+                   
+                 .text-title
+                 {
+                     text-align: center!important;
+                 }
+                 .text-title p
+                 {
+                   width :100%;
+                   text-align:center;
+                 } 
+                 .text-title h1
+                  {
+                   text-align:center;
+                  } 
+                  .text-title button
+                   {
+                    justify-content: center!important;
+                   }
+               }
+            /* content Section Start*/
+
+            /* About Us section start*/
+               .aboutus-title
+               {
+                 font-family: 'Lato', sans-serif;
+               }
+               .aboutus-title h1
+               {
+                   text-align: center;
+                   font-weight: 580; 
+               }
+               .aboutus-section img
+               {
+                 width: 70;
+                 height: 70;
+               }
+               
+            /* About section ends */
+            
+            /* custome Section starts */
+              .review-title h1
+              {
+                  text-align:center;
+                  font-family: 'Lato', sans-serif;
+                  font-weight: 580; 
+                  padding-top:50px;
+                  padding-bottom:80px;
+              }
+              .card
+              {
+                background-image: linear-gradient(to right, #0177a2 , #00ABBD);
+                border-color:#018eae;
+                font-family: 'Lato', sans-serif !important;
+              }
+              .arrow-icon i
+              {
+                font-size: 5em;
+                color: #018eae;
+               justify-content: center!important;
+              }
+              .carousel-item
+              {
+                  justify-content: center;
+              }
+              .carousel-control-prev 
+              {
+                  margin-top: 100px;
+              }
+              .carousel-control-next
+              {
+                margin-top: 100px;
+              }
+              .card-body h1
+              {
+                  margin-right:16em;
+              }
+                
+            /* Customer Section End */
+
+
+
+
+.testimonial_095_slide>h5>a:hover {
+    border: 1px solid #aa914f
+}
+
+#testimonial_095 {
+    overflow: hidden;
+    min-height: 375px;
+    position: relative;
+    background-color: #ffffff;
+    box-shadow: 1px 6px 9px 3px #5D5F5F;
+    padding-bottom:3%;
+    
+}
+
+#testimonial_095>.carousel-inner {
+    width: 75%;
+    margin: auto
+}
+
+#testimonial_095>.carousel-inner:hover {
+    cursor: -moz-grab;
+    cursor: -webkit-grab
+}
+
+#testimonial_095>.carousel-inner:active {
+    cursor: -moz-grabbing;
+    cursor: -webkit-grabbing
+}
+
+#testimonial_095>.carousel-inner>.carousel-item {
+    overflow: hidden
+}
+
+.testimonial_095_indicators>.carousel-indicators {
+    left: 0;
+    margin: 0;
+    width: 100%;
+    font-size: 0;
+    height: 20px;
+    bottom: 15px;
+    padding: 0 5px;
+    display: block;
+    overflow-x: auto;
+    overflow-y: hidden;
+    position: absolute;
+    text-align: center;
+    white-space: nowrap;
+    display: none;
+}
+
+.testimonial_095_indicators>.carousel-indicators li {
+    padding: 0;
+    width: 10px;
+    height: 10px;
+    border: none;
+    text-indent: 0;
+    margin: 2px 3px;
+    cursor: pointer;
+    display: inline-block;
+    background: #fff;
+    -webkit-border-radius: 100%;
+    border-radius: 100%;
+   list-style: none!important;
+}
+
+.testimonial_095_indicators>.carousel-indicators .active {
+    padding: 0;
+    width: 10px;
+    height: 10px;
+    border: none;
+    margin: 2px 3px;
+    background: #ffffff;
+    -webkit-border-radius: 100%;
+    border-radius: 100%;
+    list-style: none ;
+}
+
+.testimonial_095_indicators>.carousel-indicators::-webkit-scrollbar {
+    height: 3px
+}
+
+.testimonial_095_indicators>.carousel-indicators::-webkit-scrollbar-thumb {
+    background: #ffffff;
+    -webkit-border-radius: 0;
+    border-radius: 0
+}
+
+.testimonial_095_control_button .carousel-control-next,
+.testimonial_095_control_button .carousel-control-prev {
+    top: 175px;
+    opacity: 1;
+    width: 40px;
+    bottom: auto;
+    height: 40px;
+    font-size: 10px;
+    cursor: pointer;
+    font-weight: 700;
+    overflow: hidden;
+    line-height: 38px;
+    text-shadow: none;
+    text-align: center;
+    position: absolute;
+    background: 0 0;
+    border: 2px solid #fff;
+    text-transform: uppercase;
+    -webkit-border-radius: 100%;
+    border-radius: 100%;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition: all .6s cubic-bezier(.3, 1, 0, 1);
+    transition: all .6s cubic-bezier(.3, 1, 0, 1)
+}
+
+.testimonial_095_control_button .carousel-control-prev {
+    left: 7%;
+    right: auto
+}
+
+.testimonial_095_control_button .carousel-control-next {
+    right: 7%;
+    left: auto
+}
+
+.testimonial_095_control_button .carousel-control-next:hover,
+.testimonial_095_control_button .carousel-control-prev:hover {
+    color: #ffffff;
+    /* background: #1ed600; */
+    border: 2px solid #ffffff
+}
+
+.testimonial_095_header>h5,
+.testimonial_095_slide>h5>a,
+.testimonial_095_slide>p {
+    text-shadow: none;
+    font-family: Raleway, sans-serif;
+    -webkit-font-smoothing: antialiased
+}
+
+.testimonial_095_header {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    /* width: 550px; */
+    display: block;
+    margin: 30px auto;
+    text-align: center;
+    position: relative
+}
+.testimonial_095_header h1
+{
+    font-family: 'Lato', sans-serif;
+    font-weight:580;
+}
+.testimonial_095_header>h5 {
+    color: #000000;
+    font-size: 30px;
+    font-weight: 600;
+    position: relative;
+    letter-spacing: 1px;
+    text-transform: uppercase
+}
+
+.testimonial_095_header>h5>span {
+    color: #1ed600;
+    margin: 0 10px;
+    position: relative
+}
+
+.testimonial_095_header>h5>span:after {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: auto;
+    height: 1px;
+    content: "";
+    width: 100%;
+    margin: auto;
+    position: absolute;
+    background: #1ed600
+}
+
+.testimonial_095_slide,
+.testimonial_095_slide>a {
+    right: 0;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: 0;
+    left: 0
+}
+
+.testimonial_095_slide {
+    bottom: 0;
+    width: 70%;
+    padding: 20px
+}
+
+.testimonial_095_slide>a {
+    width: 50px;
+    height: 50px;
+    display: block;
+    color: #f2f2f2;
+    font-size: 18px;
+    line-height: 46px;
+    border: 3px solid #f2f2f2;
+    -webkit-border-radius: 100%;
+    border-radius: 100%
+}
+
+.testimonial_095_slide>a:after {
+    top: 0;
+    left: 0;
+    padding: 0;
+    opacity: 0;
+    width: 100%;
+    content: '';
+    height: 100%;
+    position: absolute;
+    -webkit-border-radius: 100%;
+    border-radius: 100%;
+    -webkit-transform: scale(.9);
+    -ms-transform: scale(.9);
+    transform: scale(.9);
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-box-shadow: 0 0 0 2px rgba(255, 255, 255, .1);
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, .1)
+}
+
+.testimonial_095_slide>a:hover:after {
+    -webkit-animation: psBoxShadowEffect_2 2s ease-out;
+    animation: psBoxShadowEffect_2 2s ease-out
+}
+
+.testimonial_095_slide>p {
+    color: #f2f2f2;
+    font-size: 14px;
+    margin: 40px 0 20px
+}
+
+.testimonial_095_slide>p>a {
+    color: #1ed600;
+    padding: 2px 5px;
+    text-decoration: none;
+    -webkit-transition: all .3s cubic-bezier(.39, .575, .565, 1);
+    transition: all .3s cubic-bezier(.39, .575, .565, 1)
+}
+
+.testimonial_095_slide>p>a:hover {
+    color: #fff;
+    background: #aa914f
+}
+
+.testimonial_095_slide>h5>a {
+    padding: 3px;
+    color: #1ed600;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    -webkit-transition: border .5s cubic-bezier(.39, .575, .565, 1);
+    transition: border .5s cubic-bezier(.39, .575, .565, 1)
+}
+
+.testimonial_095_slide>h5>a:hover {
+    border: 1px solid #aa914f
+}
+
+@media only screen and (max-width:480px) {
+
+    .testimonial_095_control_button .carousel-control-next,
+    .testimonial_095_control_button .carousel-control-prev {
+        display: none
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .testimonial_095_header {
+        width: 95%
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .testimonial_095_header>h5 {
+        font-size: 20px
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .testimonial_095_slide {
+        width: 98%;
+        padding: 5px
+    }
+}
+
+@media (min-width:481px) and (max-width:767px) {
+    .testimonial_095_control_button .carousel-control-prev {
+        left: 2%
+    }
+}
+
+@media (min-width:481px) and (max-width:767px) {
+    .testimonial_095_control_button .carousel-control-next {
+        right: 2%
+    }
+}
+
+@media (min-width:481px) and (max-width:767px) {
+    .testimonial_095_header {
+        width: 95%
+    }
+}
+
+@media (min-width:481px) and (max-width:767px) {
+    .testimonial_095_slide {
+        width: 98%;
+        padding: 5px
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    .testimonial_095_control_button .carousel-control-prev {
+        left: 5%
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    .testimonial_095_control_button .carousel-control-next {
+        right: 5%
+    }
+}
+
+@keyframes psBoxShadowEffect_2 {}
+
+.ps_ease .carousel-item {
+    -webkit-transition-timing-function: ease;
+    transition-timing-function: ease
+}
+
+.ps_easeInOut .carousel-item {
+    -webkit-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out
+}
+
+.ps_speedy .carousel-item {
+    -webkit-transition-timing-function: cubic-bezier(0, 1, 0, 1);
+    transition-timing-function: cubic-bezier(0, 1, 0, 1)
+}
+
+.ps_slowSpeedy .carousel-item {
+    -webkit-transition-timing-function: cubic-bezier(.3, 1, 0, 1);
+    transition-timing-function: cubic-bezier(.3, 1, 0, 1)
+}
+
+.ps_easeOutInCubic .carousel-item {
+    -webkit-transition-timing-function: cubic-bezier(.22, .81, .01, .99);
+    transition-timing-function: cubic-bezier(.22, .81, .01, .99)
+}
+
+.ps_swing .carousel-item {
+    -webkit-transition-timing-function: cubic-bezier(.02, .01, .47, 1);
+    transition-timing-function: cubic-bezier(.02, .01, .47, 1)
+}
+
+.ps_easeOutCubic .carousel-item {
+    -webkit-transition-timing-function: cubic-bezier(.215, .61, .355, 1);
+    transition-timing-function: cubic-bezier(.215, .61, .355, 1)
+}
+
+.ps_easeInOutCubic .carousel-item {
+    -webkit-transition-timing-function: cubic-bezier(.645, .045, .355, 1);
+    transition-timing-function: cubic-bezier(.645, .045, .355, 1)
+}
+
+.ps_easeOutCirc .carousel-item {
+    -webkit-transition-timing-function: cubic-bezier(.075, .82, .165, 1);
+    transition-timing-function: cubic-bezier(.075, .82, .165, 1)
+}
+
+.ps_easeOutExpo .carousel-item {
+    -webkit-transition-timing-function: cubic-bezier(.19, 1, .22, 1);
+    transition-timing-function: cubic-bezier(.19, 1, .22, 1)
+}
+
+.ps_easeInQuad .carousel-item {
+    -webkit-transition-timing-function: cubic-bezier(.55, .085, .68, .53);
+    transition-timing-function: cubic-bezier(.55, .085, .68, .53)
+}
+
+.ps_easeOutQuad .carousel-item {
+    -webkit-transition-timing-function: cubic-bezier(.25, .46, .45, .94);
+    transition-timing-function: cubic-bezier(.25, .46, .45, .94)
+}
+
+.ps_easeInOutQuad .carousel-item {
+    -webkit-transition-timing-function: cubic-bezier(.455, .03, .515, .955);
+    transition-timing-function: cubic-bezier(.455, .03, .515, .955)
+}
+
+.ps_easeOutQuart .carousel-item {
+    -webkit-transition-timing-function: cubic-bezier(.165, .84, .44, 1);
+    transition-timing-function: cubic-bezier(.165, .84, .44, 1)
+}
+
+.ps_easeInOutQuart .carousel-item {
+    -webkit-transition-timing-function: cubic-bezier(.77, 0, .175, 1);
+    transition-timing-function: cubic-bezier(.77, 0, .175, 1)
+}
+
+.ps_easeOutQuint .carousel-item {
+    -webkit-transition-timing-function: cubic-bezier(.23, 1, .32, 1);
+    transition-timing-function: cubic-bezier(.23, 1, .32, 1)
+}
+
+.ps_easeInSine .carousel-item {
+    -webkit-transition-timing-function: cubic-bezier(.47, 0, .745, .715);
+    transition-timing-function: cubic-bezier(.47, 0, .745, .715)
+}
+
+.ps_easeOutSine .carousel-item {
+    -webkit-transition-timing-function: cubic-bezier(.39, .575, .565, 1);
+    transition-timing-function: cubic-bezier(.39, .575, .565, 1)
+}
+
+.ps_easeInOutSine .carousel-item {
+    -webkit-transition-timing-function: cubic-bezier(.445, .05, .55, .95);
+    transition-timing-function: cubic-bezier(.445, .05, .55, .95)
+}
+
+.fa-chevron-left
+{
+    color: #018eae;
+    font-size: 4em;
+}
+.fa-chevron-right
+{
+    color: #018eae;
+    font-size: 4em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+         .testimonials-v-2 {
+  padding: 100px 0;
+  overflow: hidden;
+}
+
+.testi-slide {
+  text-align: center;
+}
+
+.testi-slide img {
+  width: 92px;
+  height: 92px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.testi-slide p {
+  margin: 20px 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  font-style: italic;
+}
+
+.testi-slide i {
+  color: #32c5d2;
+  margin-right: 10px;
+}
+
+.testi-slide h4 {
+  font-weight: 400;
+  font-size: 16px;
+  font-family: "Lato", sans-serif !important;
+  font-style: italic;
+}
+
+.testi-slide .flex-control-paging li a {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  -ms-box-shadow: none;
+  box-shadow: none;
+  background: transparent !important;
+  border: 2px solid #ccc;
+  width: 8px;
+  height: 8px;
+}
+
+.testi-slide .flex-control-paging li a.flex-active {
+  background: transparent !important;
+  border: 2px solid #32c5d2;
+}
+
+.quote {
+  position: relative;
+}
+
+.quote blockquote {
+  padding: 0px;
+  border: 0;
+  margin: 0;
+  font-size: 14px;
+  font-style: italic;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  border-radius: 8px;
+}
+blockquote hr{
+    color:#ffffff;
+    border-color: #ffffff;
+}
+
+.quote blockquote p {
+  color: #fff;
+  padding-top: 25px;
+  padding-bottom: 1px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.quote blockquote:before {
+  /* content: ""; */
+  position: absolute;
+  top: 100%;
+  left: 90px;
+  width: 0;
+  height: 0;
+  border-top: 0.83333em solid #ccc;
+  border-right: 0.86667em solid transparent;
+}
+
+.quote.green blockquote {
+  background-color: #32c5d2;
+}
+
+.quote.green blockquote:before {
+  border-top-color: #32c5d2;
+}
+
+.quote.dark blockquote {
+  background-color: #555;
+}
+
+.quote.dark blockquote:before {
+  border-top-color: #555;
+}
+
+.quote-footer {
+  /* margin: 10px 0; */
+}
+
+.quote-footer .quote-author-img img {
+  float: left;
+  max-width: 90px;
+  width: 90px;
+  height: 90px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  margin-left: -5px;
+  /* margin-top: -40px; */
+  position: relative;
+  z-index: 1;
+  padding: 5px;
+  background-color: #fff;
+  margin-left:20px;
+  margin-right:20px!important;
+}
+.quote-footer h4{
+    margin-right:20px;
+    color:#ffffff;
+}
+.quote-footer p{
+    margin-right:20px;
+    color:#ffffff;
+}
+
+
+.quote-footer h4 {
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.quote-footer p {
+  font-weight: 400;
+  font-style: italic;
+  font-size: 14px;
+}   
+
+
+/*  Package Section Starts */
+    .package_title h1
+    {
+        text-align: center;
+        font-weight: 580; 
+    }
+    .features-title 
+    {
+      color:#ECB22E;
+    }
+    .free-title
+    {
+        color:#4B9DE9;
+    }
+    .pro-title
+    {
+        color:#FF543E;
+    }
+    .team-title
+    {
+        color:#2EB67D;
+    }
+    .options
+    {
+        color:#5D5F5F;
+    }
+    .user-restricted
+    {
+        color:#FF543E;
+    }
+    .user-option
+    {
+        color:#ECB22E;
+    }
+    .package_buttons button
+    {
+        background-color:#00ABBD;
+        color:#ffffff;
+        width:100%;
+        font-weight: 580;
+        font-size: 16px;
+        text-align:center;
+    }
+    
+    
+/*  Package Section Ends */
+            
+        </style>
+    </head>
+    <body>
+       <!-- Navbar Starts-->
+        <nav class="navbar navbar-expand-md mb-4">
+           
+            <a class="navbar-brand" href="#">LOGO</a>  <!-- Navbar Brand -->
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+            </button>
+            <!-- Navbar links -->
+            <!-- Navbar Items Start -->
+            <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+              <ul class="navbar-nav ">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Features</a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">About</a>
+                      <a class="dropdown-item" href="#">Contact Us</a>
+                      <a class="dropdown-item" href="#">Updates | FAQ</a>
+                      <a class="dropdown-item" href="#">Signup</a>
+                    </div>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">   
+                  <a class="nav-link" href="#">Contact Us</a>
+                </li>
+                <li class="nav-item">   
+                    <a class="nav-link" href="#">Updates | FAQ</a>
+                  </li>
+                  <li class="nav-item">   
+                    <a class="nav-link" href="#">Signup</a>
+                  </li>
+              </ul>
+            </div>
+            <!-- Navbar items End -->
+            <button class='demo-button pt-1 pb-1 pr-3 pl-3'><a class="" href="#">Schedule  Demo</a></button> <!-- Navbar Button -->
+          </nav>
+          
+          <!-- Navbar Ends -->
+
+          <!-- Banner Section Starts -->
+
+
+          <div class="banner">
+               <div class="row ">
+                  <div class="col-md-4 col-sm-12">
+                     
+                  </div>
+                  <div class= "col-md-8 col-sm-12 mb-" style="text-align:right!important;">
+                     <div class="banner-content">
+                        <h1 class="mr-3 banner-title">Elevate your business <br>
+                            using all-in-one social media <br>platform 
+                        </h1>
+                        <p>Drive conversational engagement and practina’s easy-to-use, low-cost <br>system helps small businesses in social media marketing .</p>
+                     </div>
+                   </div>
+               </div>
+               <div class="row last-row">
+                  <div class="col-md-4 mb-4 col-sm-12">
+
+                  </div>
+                  <div class="col-md-4 mb-4 col-sm-12 mt-3">
+                     <ul>
+                         <li>
+                             <a href="" class=""><img src="images/facebook.svg" alt="" class="ml-3"></a>
+                             <a href="" ><img src="images/twitter.svg" alt="" class="ml-3"></a>
+                             <a href=""><img src="images/Linkedin.svg" alt="" class="ml-3"></a>
+                             <a href=""><img src="images/youtube.svg" alt="" class="ml-3"></a>
+                             <a href=""><img src="images/instagram.svg" alt="" class="ml-3"></a>
+                             <a href=""><img src="images/pinterest.svg" alt="" class="ml-3"></a>
+                             <a href=""><img src="images/spotify.svg" alt="" class="ml-3 spotify"></a>
+                         </li>
+                     </ul>
+                  </div>
+                  <div class="col-md-4 col-sm-12 mb-4" >
+                    <div class="testimonials_buttons get_button">
+                        <button class="banner-button  pt-1 pb-1 pr-3 pl-3 mt-3">Get Started<i class="fa fa-angle-right ml-4"></i></button>
+                     </div>
+                  </div>
+               </div>
+          </div>
+          
+                <!-- <div class="banner">
+            <img src="images/banner.png" class=" img-fluid justify-content-right" alt="Snow" >
+            <div class="centered">
+                 <h1 style="text-align: right!important;">Elevate your business using all-in -one social media platform </h1> 
+                 <p class="mt-5" style="text-align: right!important;">Drive conversational engagement and practina’s easy-to-use, low-cost system helps small businesses in social media marketing .</p> 
+            </div>
+            <div class="centered-last-sec">
+                <ul>
+                    <li>
+                        <a href="" >
+                            <img src="images/facebook.svg" alt="">
+                        </a>
+                        <a href="" class="ml-2">
+                            <img src="images/twitter.svg" alt="">
+                        </a>
+                        <a href="" class="ml-2">
+                            <img src="images/Linkedin.svg" alt="">
+                        </a>
+                        <a href="" class="ml-2">
+                            <img src="images/youtube.svg" alt="">
+                        </a>
+                        <a href="" class="ml-2">
+                            <img src="images/instagram.svg" alt="">
+                        </a>
+                        <a href="" class="ml-2">
+                            <img src="images/pinterest.svg" alt="">
+                        </a>
+                        <a href="" class="ml-2">
+                            <img src="images/spotify.svg" alt="">
+                        </a>
+                        <a href="">
+                            <button class='demo-button start-button pt-1 pb-1 pr-3 pl-3 justify-content-right'><a class="" href="#">Schedule  Demo</a></button>
+                        </a>
+                    </li>   
+                </ul>
+            </div>
+          </div> -->
+          <!-- Banner Section Ends -->
+          
+          <!-- simple content section start -->
+            <div class="container">
+               <div class="row">
+                   <div class="col-md-6 col-sm-12">
+                      <div class="text-title">
+                         <h1>Simple and Affordable online marketing Plans</h1>
+                         <p class="mt-4">Practina’s easy-to-use, low-cost system helps small businesses outperform their local competition by simplifying social media marketing to connect them with more customers.</p>
+                         <button class='getstart-button  pt-1 pb-1 pr-3 pl-3 mt-3'>Let's Start <i class="fa fa-angle-right ml-4"></i></button>
+                        </div>
+                   </div>
+                   <div class="col-md-6 col-sm-12">
+                     <img src="images/simple.png" alt="" class="img-fluid">
+                   </div>
+               </div>
+            </div>
+            <div class="container mt-5">
+                <div class="row mt-5">
+                    <div class="col-md-6 col-sm-12 ">
+                        <img src="images/marketing.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="col-md-6 col-sm-12 mt-5">   
+                        <div class="text-title">
+                            <h1>Grow your audience and clients</h1>
+                            <p class="mt-4">Practina’s easy-to-use, low-cost system helps small businesses outperform their local competition by simplifying social media marketing to connect them with more customers.</p>
+                            <button class='getstart-button  pt-1 pb-1 pr-3 pl-3 mt-3'>Let's Start <i class="fa fa-angle-right ml-4"></i></button>
+                           </div>
+                    </div>
+                </div>
+             </div>
+          <!-- simple content section start -->
+         
+          <!-- Reconnoitre Section start -->
+            <div class="container aboutus-section mt-5">
+              <div class="row">
+                <div class="col-md-12 aboutus-title mt-5">
+                  <h1 class="mt-5">Reconnoitre more about us</h1>
+                </div>
+              </div>
+              <div class="row mt-5" style="margin-left: 10px;">
+                  <div class="col-md-4 mt-5">
+                       <div>
+                           <img src="images/leads.png" alt="" class="img-fluid">
+                           <h5 class="mt-3">lead Generation</h5>
+                           <p>Instant notifications when customers show interest in your ads.</p>
+                       </div>
+                   </div>
+                    <div class="col-md-4 mt-5">
+                       <div>
+                          <img src="images/template.png" alt="" class="img-fluid">
+                          <h5 class="mt-3">lead Generation</h5>
+                          <p>Instant notifications when customers show interest in your ads.</p>
+                       </div>
+                    </div>
+                    <div class="col-md-4 mt-5">
+                       <div>
+                           <img src="images/advertising.png" alt="" class="img-fluid">
+                           <h5 class="mt-3">lead Generation</h5>
+                           <p>Instant notifications when customers show interest in your ads.</p>
+                       </div>
+                    </div>
+              </div>
+              <div class="row mt-5" style="margin-left: 10px;">
+                <div class="col-md-4 mt-5">
+                     <div>
+                         <img src="images/bot.png" alt="" class="img-fluid">
+                         <h5 class="mt-3">lead Generation</h5>
+                         <p>Instant notifications when customers show interest in your ads.</p>
+                     </div>
+                 </div>
+                  <div class="col-md-4 mt-5">
+                     <div>
+                        <img src="images/marketing.png" alt="" class="img-fluid">
+                        <h5 class="mt-3">lead Generation</h5>
+                        <p>Instant notifications when customers show interest in your ads.</p>
+                     </div>
+                  </div>
+                  <div class="col-md-4 mt-5">
+                     <div>
+                         <img src="images/writer.png" alt="" class="img-fluid">
+                         <h5 class="mt-3">lead Generation</h5>
+                         <p>Instant notifications when customers show interest in your ads.</p>
+                     </div>
+                  </div>
+            </div>
+            </div>
+          <!-- Reconnoitre Section start -->
+
+
+          <!-- Customer Reviews section start -->
+
+          <div class="container mt-5">
+            <div  id="testimonial_095" class="carousel slide testimonial_095_indicators testimonial_095_control_button thumb_scroll_x swipe_x ps_easeOutSine" data-ride="carousel" data-pause="hover" data-interval="5000" data-duration="2000">
+                <!-- Header of Slider -->
+                <div class="testimonial_095_header">
+                    <h1 class="pt-5 pb-5">What Our Customers Say About Us</h1>
+                </div> <!-- /Header of Slider -->
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#testimonial_095" data-slide-to="0" ></li>
+                    <li data-target="#testimonial_095" data-slide-to="1"></li>
+                    <li data-target="#testimonial_095" data-slide-to="2"></li>
+                </ol> <!-- Wrapper For Slides -->
+                <div class="carousel-inner" role="listbox">
+                    <!-- First Slide -->
+                    <div class="carousel-item active">
+                        <!-- Text Layer -->
+                        <div class="row ">
+                            <div class="col-md-6 mb-3">
+                                <div class="card" style="background-image: linear-gradient(to right, #0177a2, #00ABBD) !important;">
+                                    <div class="quote " style=" border-radius: 10px;">
+                                        <blockquote>
+                                            <p>
+                                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. 
+                                            </p>
+                                            <hr style="width: 80%; margin-top:2px!important; margin-bottom: 2px!important;">
+                                        </blockquote>                        
+                                    </div>
+                                    <div class="quote-footer text-right mt-4">
+                                        <div class="quote-author-img">
+                                            <img class='mrl-2' src="images/testimonials.png" alt="">
+                                        </div>
+                                        <h4 class="mt-4">Anetasia melinda</h4>
+                                        <p>
+                                            <strong>Content Writer</strong>
+                                        </p>
+                                    </div> 
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <div class="card" style="background-image: linear-gradient(to right, #0177a2, #00ABBD) !important;">
+                                    <div class="quote " style=" border-radius: 10px;">
+                                        <blockquote>
+                                            <p>
+                                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. 
+                                            </p>
+                                            <hr style="width: 80%; margin-top:2px!important; margin-bottom: 2px!important;">
+                                        </blockquote>                        
+                                    </div>
+                                    <div class="quote-footer text-right mt-4">
+                                        <div class="quote-author-img">
+                                            <img class='mrl-2' src="images/testimonials.png" alt="">
+                                        </div>
+                                        <h4 class="mt-4">Anetasia melinda</h4>
+                                        <p>
+                                            <strong>Content Writer</strong>
+                                        </p>
+                                    </div> 
+                                </div>
+                            </div>
+                        </div> 
+                        <!-- /Text Layer -->
+                    </div> <!-- /item -->
+                    <!-- End of First Slide -->
+                    <!-- Second Slide -->
+                    <div class="carousel-item">
+                        <!-- Text Layer -->
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <div class="card" style="background-image: linear-gradient(to right, #0177a2, #00ABBD) !important;">
+                                    <div class="quote " style=" border-radius: 10px;">
+                                        <blockquote>
+                                            <p>
+                                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. 
+                                            </p>
+                                            <hr style="width: 80%; margin-top:2px!important; margin-bottom: 2px!important;">
+                                        </blockquote>                        
+                                    </div>
+                                    <div class="quote-footer text-right mt-4">
+                                        <div class="quote-author-img">
+                                            <img class='mrl-2' src="images/testimonials.png" alt="">
+                                        </div>
+                                        <h4 class="mt-4">Anetasia melinda</h4>
+                                        <p>
+                                            <strong>Content Writer</strong>
+                                        </p>
+                                    </div> 
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <div class="card" style="background-image: linear-gradient(to right, #0177a2, #00ABBD) !important;">
+                                    <div class="quote " style=" border-radius: 10px;">
+                                        <blockquote>
+                                            <p>
+                                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. 
+                                            </p>
+                                            <hr style="width: 80%; margin-top:2px!important; margin-bottom: 2px!important;">
+                                        </blockquote>                        
+                                    </div>
+                                    <div class="quote-footer text-right mt-4">
+                                        <div class="quote-author-img">
+                                            <img class='mrl-2' src="images/testimonials.png" alt="">
+                                        </div>
+                                        <h4 class="mt-4">Anetasia melinda</h4>
+                                        <p>
+                                            <strong>Content Writer</strong>
+                                        </p>
+                                    </div> 
+                                </div>
+                            </div>
+                        </div>   <!-- /Text Layer -->
+                    </div> <!-- /item -->
+                    <!-- End of Second Slide -->
+                    <!-- Third Slide -->
+                    <div class="carousel-item">
+                        <!-- Text Layer -->
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <div class="card" style="background-image: linear-gradient(to right, #0177a2, #00ABBD) !important;">
+                                    <div class="quote " style=" border-radius: 10px;">
+                                        <blockquote>
+                                            <p>
+                                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. 
+                                            </p>
+                                            <hr style="width: 80%; margin-top:2px!important; margin-bottom: 2px!important;">
+                                        </blockquote>                        
+                                    </div>
+                                    <div class="quote-footer text-right mt-4">
+                                        <div class="quote-author-img">
+                                            <img class='mrl-2' src="images/testimonials.png" alt="">
+                                        </div>
+                                        <h4 class="mt-4">Anetasia melinda</h4>
+                                        <p>
+                                            <strong>Content Writer</strong>
+                                        </p>
+                                    </div> 
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <div class="card" style="background-image: linear-gradient(to right, #0177a2, #00ABBD) !important;">
+                                    <div class="quote " style=" border-radius: 10px;">
+                                        <blockquote>
+                                            <p>
+                                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. 
+                                            </p>
+                                            <hr style="width: 80%; margin-top:2px!important; margin-bottom: 2px!important;">
+                                        </blockquote>                        
+                                    </div>
+                                    <div class="quote-footer text-right mt-4">
+                                        <div class="quote-author-img">
+                                            <img class='mrl-2' src="images/testimonials.png" alt="">
+                                        </div>
+                                        <h4 class="mt-4">Anetasia melinda</h4>
+                                        <p>
+                                            <strong>Content Writer</strong>
+                                        </p>
+                                    </div> 
+                                </div>
+                            </div>
+                        </div>
+                         <!-- /Text Layer -->
+                    </div> <!-- /item -->
+                    <!-- End of Third Slide -->
+                </div> <!-- End of Wrapper For Slides -->
+
+                <div class="row mt-5" style="text-align: center;">
+                  <div class="col-md-12">
+                     <div class="testimonials_buttons">
+                        <button class="getstart-button  pt-1 pb-1 pr-3 pl-3 mt-3">See All Reviws <i class="fa fa-angle-right ml-4"></i></button>
+                     </div>
+                   </div>
+                </div>
+
+                <!-- Left Control --> 
+                <!-- <a class="carousel-control-prev " href="#testimonial_095" data-slide="prev"> <span class="fa fa-chevron-left" padding></span> </a>  -->
+                
+                
+                <!-- Right Control --> 
+                <!-- <a class="carousel-control-next" href="#testimonial_095" data-slide="next"> <span class="fa fa-chevron-right"></span> </a> -->
+            
+            </div> <!-- End Paradise Slider -->
+        </div>  
+          <!-- Customer Reviews Section Ends --> 
+         <!--  PAckage Section starts -->
+            <div class="container mt-5 mb-5">
+                <div class="row">
+                    <div class="col-md-12 mt-5">
+                       <div class="package_title mt-5 justify-content-center"  >
+                          <h1 >
+                            Choose your package for social media <br>managemmant
+                          </h1>
+                       </div>
+                    </div>
+                </div>
+                <div class="row ">
+                  <div class="col-md-3 col-sm-3 mt-5 ">
+                     <div class="features pb-5" style="box-shadow: 1px 6px 9px 3px #5D5F5F; text-align:center;">
+                        <h4 class="pt-3 pb-3 features-title">Features</h4>
+                        <hr class="" style="width: 80%; margin-top:-10px!important; margin-bottom: 2px!important;color:#000000;
+                        border-color: #ECB22E;">
+                        <h6 class="font-weight-bold mt-4 options">Number of accounts</h6>
+                        <h6 class="font-weight-bold mt-5 options">Number of posts</h6>
+                        <h6 class="font-weight-bold mt-5 options">Number of projects</h6>
+                        <h6 class="font-weight-bold mt-5 options">Number of users</h6>
+                        <h6 class="font-weight-bold mt-5 options">Social Media Accounts</h6>
+                        <h6 class="font-weight-bold mt-5 options">The number of recurring tasks</h6>
+                        <h6 class="font-weight-bold mt-5 options">Social Inbox</h6>
+                        <h6 class="font-weight-bold mt-5 options">Schedule-ahead period</h6>
+                        <h6 class="font-weight-bold mt-5 options">More than 1 photo in a post</h6>
+                        <h6 class="font-weight-bold mt-5 options">Use of mobile applications</h6>
+                        
+                     </div>
+                  </div>
+                  <div class="col-md-3 col-sm-3 mt-5">
+                    <div class="features" style="box-shadow: 1px 6px 9px 3px #5D5F5F; text-align:center;">
+                        <h4 class="pt-3 pb-3 free-title">Free</h4>
+                        <hr class="" style="width: 80%; margin-top:-10px!important; margin-bottom: 2px!important;color:#000000;
+                        border-color: #4B9DE9;">
+                        <h6 class="font-weight-bold mt-4 options">Unlimited</h6>
+                        <h6 class="font-weight-bold mt-5 options">Unlimited</h6>
+                        <h6 class="font-weight-bold mt-5 options">Unlimited</h6>
+                        <h6 class="font-weight-bold mt-5 options user-option">1 User</h6>
+                        <h6 class="font-weight-bold mt-5 options user-restricted">Not All Platforms</h6>
+                        <h6 class="font-weight-bold mt-5 options user-option">1 Task for all accounts</h6>
+                        <h6 class="font-weight-bold mt-5 options user-option">7 Day’s</h6>
+                        <h6 class="font-weight-bold mt-5 options user-option">7 Day’s</h6>
+                        <h6 class="font-weight-bold mt-5 options user-restricted">Not Available</h6>
+                        <h6 class="font-weight-bold mt-5 options user-restricted    ">Not Available</h6>
+                        <div class="package_buttons">
+                            <button class="getstart-button  pt-1 pb-1 pr-3 pl-3 mt-3">Select Your Plan </button>
+                         </div>
+                     </div>
+                 </div>
+                 <div class="col-md-3 col-sm-3 mt-5">
+                    <div class="features" style="box-shadow: 1px 6px 9px 3px #5D5F5F; text-align:center;">
+                        <h4 class="pt-3 pb-3 pro-title">Features</h4>
+                        <hr class="" style="width: 80%; margin-top:-10px!important; margin-bottom: 2px!important;color:#000000;
+                        border-color: #FF543E;">
+                        <h6 class="font-weight-bold mt-4 options">Unlimited</h6>
+                        <h6 class="font-weight-bold mt-5 options">Unlimited</h6>
+                        <h6 class="font-weight-bold mt-5 options">Unlimited</h6>
+                        <h6 class="font-weight-bold mt-5 options">Unlimited</h6>
+                        <h6 class="font-weight-bold mt-5 options">All Platforms</h6>
+                        <h6 class="font-weight-bold mt-5 options">1 Task for all accounts</h6>
+                        <h6 class="font-weight-bold mt-5 options user-option">1 Month</h6>
+                        <h6 class="font-weight-bold mt-5 options user-option">1 Month</h6>
+                        <h6 class="font-weight-bold mt-5 options user-restricted">Not Available</h6>
+                        <h6 class="font-weight-bold mt-5 options">All Applications</h6>
+                        <div class="package_buttons">
+                            <button class="getstart-button  pt-1 pb-1 pr-3 pl-3 mt-3">Select Your Plan </button>
+                         </div>
+                     </div>
+                 </div>
+                 <div class="col-md-3 col-sm-3 mt-5">
+                    <div class="features" style="box-shadow: 1px 6px 9px 3px #5D5F5F; text-align:center;">
+                        <h4 class="pt-3 pb-3 team-title">Features</h4>
+                        <hr class="" style="width: 80%; margin-top:-10px!important; margin-bottom: 2px!important;color:#000000;
+                        border-color: #2EB67D;">
+                        <h6 class="font-weight-bold mt-4 options">Unlimited</h6>
+                        <h6 class="font-weight-bold mt-5 options">Unlimited</h6>
+                        <h6 class="font-weight-bold mt-5 options">Unlimited</h6>
+                        <h6 class="font-weight-bold mt-5 options">1 User</h6>   
+                        <h6 class="font-weight-bold mt-5 options">All Platforms</h6>
+                        <h6 class="font-weight-bold mt-5 options">Unlimited</h6>
+                        <h6 class="font-weight-bold mt-5 options">Unlimited</h6>
+                        <h6 class="font-weight-bold mt-5 options">Unlimited</h6>
+                        <h6 class="font-weight-bold mt-5 options">Unlimited</h6>
+                        <h6 class="font-weight-bold mt-5 options">All applications</h6>
+                        <div class="package_buttons">
+                            <button class="getstart-button  pt-1 pb-1 pr-3 pl-3 mt-3">Select Your Plan </button>
+                         </div>
+                     </div>
+                 </div>
+                </div>
+            </div>
+         <!--  PAckage Section starts -->
+    </body>
+</html>    
