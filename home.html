@@ -30,7 +30,8 @@
             }
             .navbar
             {
-                background-color:#00ABBD;
+                /* background-color:#00ABBD; */
+                 background-image: linear-gradient(to right, #0177a2, #00ABBD) !important;  
             }
             .navbar a{
                 color:#272727;
@@ -44,15 +45,17 @@
               }
               .banner{
                   color:#000000;
-                  background-image: url('images/banner.png');
+                  /* background-image: linear-gradient(to right, #0177a2, #00ABBD) !important;   */
+                  background-image:url("images/banner.png");
                   width: 100%;
-                  height: auto;
+                  height: 100%;
                   background-size: cover!important;
                   background-repeat: no-repeat;
                   margin-bottom: 10%;
                   text-align:right;
                   float: right;
-
+                  margin-top:2%;
+                  
               }
               
               .banner-title 
@@ -64,7 +67,7 @@
               .banner-content
               {
                   margin-right:8px;
-                  margin-top:18%;
+                  margin-top:20%;
                   font-family: 'Lato', sans-serif;
               }
               .banner-content p
@@ -139,6 +142,13 @@
                {
                    width :70%;
                    color: #5D5F5F!important;
+                 
+               }
+               .text-title-two p    
+               {
+                   /* width :70%; */
+                   color: #5D5F5F!important;
+                   margin-left:30%;
                }
                .text-title h1
                {
@@ -151,18 +161,72 @@
                }
                .getstart-button
                {
-                   border:1px;
-                   box-shadow: 1px 6px 9px 3px #5D5F5F;
-                   color: #018eae;
+                   border:1px solid #00ABBD ; 
+                   background-color: #00ABBD;
+                   color: #ffffff;
+                   font-weight: 500;
+                   padding:2% 5% 2% 5%!important;
+
+               }
+               .getstart-button-sec
+               {
+                   border:1px solid #00ABBD ; 
+                   background-color: #ffffff;
+                   color: #00ABBD;
+                   font-weight: 500;
+                   padding:1% 4% 1% 4%!important;
                }
                .banner-button
                {
                    border:1px;
                     font-weight: 600;
                    color: #018eae;
+                   padding:2% 5% 2% 5%!important;
                }
+               .second-para
+               {
+                 color:#5D5F5F;
+               }
+              
                @media only screen and (max-width: 768px)
                {
+                   .banner-para br
+                   {
+                      display:none!important;
+                   }
+                   .app-button-col
+                   {
+                       width:auto!important;
+                   }
+                   .navbar
+                   {
+                     /* background-color:#00ABBD; */
+                     /* background-image: linear-gradient(to right, #0177a2, #00ABBD) !important;  */
+                       }
+                   .text-title-two   
+                    {
+                      width :100%!important;
+                       color: #5D5F5F!important;
+                       /* margin-left:0px!important; */
+                    }
+                   .grow-sec
+                    {
+                      text-align:center!important;
+                      margin-left:0px!important;
+                      width :100%!important;
+                    }
+                    .text-title-two
+                    {
+                      text-align:center!important;
+                    }
+                   .app-button
+                   {
+                     text-align:center!important;
+                   }
+                   .start-building-img img
+                   {
+                      width:100%; 
+                   }
                    .get_button button
                    {
                        margin-right: 0px!important;
@@ -198,21 +262,21 @@
                  }
                 .spotify
                    {
-                       visibility: hidden;
+                       /* visibility: hidden; */
                    }   
                 .banner{
                   color:#000000;
-                  background-image: url('images/phonebanner.png');
+                  /* background-image: url('images/phonebanner.png'); */
+                  background-image: linear-gradient(to right, #0177a2, #00ABBD) !important; 
                   width: 100%;
                   height: auto;
                   background-size: cover;
                   background-repeat: no-repeat;
                   margin-bottom: 10%;
                   padding-bottom: 20%;
+                  margin-top:1px;
               }
-
-                   
-                   
+ 
                  .text-title
                  {
                      text-align: center!important;
@@ -248,6 +312,10 @@
                  width: 70;
                  height: 70;
                }
+               .aboutus-section p
+               {
+                   color:#5D5F5F;
+               }
                
             /* About section ends */
             
@@ -262,7 +330,9 @@
               }
               .card
               {
-                background-image: linear-gradient(to right, #0177a2 , #00ABBD);
+                /* background-image: linear-gradient(to right, #0177a2 , #00ABBD); */
+                background-color: #ffffff;
+                
                 border-color:#018eae;
                 font-family: 'Lato', sans-serif !important;
               }
@@ -288,11 +358,11 @@
               {
                   margin-right:16em;
               }
-                
+              .customer-review
+              {
+                  background-color: #32c5d2!important;
+              }
             /* Customer Section End */
-
-
-
 
 .testimonial_095_slide>h5>a:hover {
     border: 1px solid #aa914f
@@ -302,9 +372,11 @@
     overflow: hidden;
     min-height: 375px;
     position: relative;
-    background-color: #ffffff;
-    box-shadow: 1px 6px 9px 3px #5D5F5F;
+    /* background-color: #32c5d2; */
+    background-image: linear-gradient(to right, #0177a2, #00ABBD) !important;
+    /* box-shadow: 1px 6px 9px 3px #5D5F5F; */
     padding-bottom:3%;
+    margin-top: 10%;
     
 }
 
@@ -440,12 +512,19 @@
     display: block;
     margin: 30px auto;
     text-align: center;
-    position: relative
+    position: relative;
+ 
+}
+.testimonial_095_header hr
+{
+    background-color:#ffffff;
 }
 .testimonial_095_header h1
 {
     font-family: 'Lato', sans-serif;
     font-weight:580;
+    font-size: 55px;
+    color: #ffffff;
 }
 .testimonial_095_header>h5 {
     color: #000000;
@@ -824,11 +903,11 @@
 }
 blockquote hr{
     color:#ffffff;
-    border-color: #ffffff;
+    border-color: #00ABBD;
 }
 
 .quote blockquote p {
-  color: #fff;
+  color: #000000;
   padding-top: 25px;
   padding-bottom: 1px;
   padding-left: 30px;
@@ -886,11 +965,11 @@ blockquote hr{
 }
 .quote-footer h4{
     margin-right:20px;
-    color:#ffffff;
+    color:#00ABBD;
 }
 .quote-footer p{
     margin-right:20px;
-    color:#ffffff;
+    color:#00ABBD;
 }
 
 
@@ -949,58 +1028,131 @@ blockquote hr{
         font-size: 16px;
         text-align:center;
     }
-    
-    
+
 /*  Package Section Ends */
-            
-        </style>
+
+
+/* Footer Section Start*/
+   .footer
+   {
+       margin-top:5%;   
+   }
+   .unorder-list-footer img
+   {
+      width:20px;
+      height:20px;
+   }
+   .list h5
+   {
+     color:#00ABBD ;
+   }
+   .list 
+   {
+      color:#5D5F5F;
+   }
+   .list a
+   {
+       text-decoration:none;
+       color:#353636;
+       font-size:14px;
+       font-weight:600;
+   }
+   .list-one img
+   {
+         width:100;
+   }
+   .footer-bottom
+   {
+       background-color:#00ABBD;
+       padding-top:15px;
+       padding-bottom:2px;
+   }
+   .app-button
+   {
+       text-align:right;
+   }
+/* Footer Section Ends */
+
+
+.subscription
+{
+     background-image: linear-gradient(to right, #0177a2, #00ABBD) !important; 
+    font-family: 'Lato', sans-serif !important;
+    /* font-weight:800; */
+
+}
+.subscription h1
+{
+     font-weight:680; 
+     color:#ffffff;
+     /* color:#00ABBD; */
+}
+.boot-section-container
+{
+    padding-left:1px!important;
+    padding-right:1px!important;
+}
+.grow-sec
+{
+    text-align:right;
+}
+.sticky-top
+{
+    z-index: au;
+}
+      
+</style>
     </head>
     <body>
-       <!-- Navbar Starts-->
-        <nav class="navbar navbar-expand-md mb-4">
-           
-            <a class="navbar-brand" href="#">LOGO</a>  <!-- Navbar Brand -->
-            <!-- Toggler/collapsibe Button -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-              <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
-            </button>
-            <!-- Navbar links -->
-            <!-- Navbar Items Start -->
-            <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
-              <ul class="navbar-nav ">
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Features</a>
-                    <div class="dropdown-menu">
-                      <a class="dropdown-item" href="#">About</a>
-                      <a class="dropdown-item" href="#">Contact Us</a>
-                      <a class="dropdown-item" href="#">Updates | FAQ</a>
-                      <a class="dropdown-item" href="#">Signup</a>
-                    </div>
-                  </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">About</a>
-                </li>
-                <li class="nav-item">   
-                  <a class="nav-link" href="#">Contact Us</a>
-                </li>
-                <li class="nav-item">   
-                    <a class="nav-link" href="#">Updates | FAQ</a>
-                  </li>
-                  <li class="nav-item">   
-                    <a class="nav-link" href="#">Signup</a>
-                  </li>
-              </ul>
-            </div>
-            <!-- Navbar items End -->
-            <button class='demo-button pt-1 pb-1 pr-3 pl-3'><a class="" href="#">Schedule  Demo</a></button> <!-- Navbar Button -->
-          </nav>
-          
-          <!-- Navbar Ends -->
 
+
+
+
+    <!-- Navbar with Banner for web view start -->
+       
+        <nav class="navbar navbar-expand-md sticky-top">
+           
+           <a class="navbar-brand" href="#">LOGO</a>  
+           
+           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+             <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+           </button>
+           
+           <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+             <ul class="navbar-nav ">
+               <li class="nav-item dropdown">
+                   <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Features</a>
+                   <div class="dropdown-menu">
+                     <a class="dropdown-item" href="#">About</a>
+                     <a class="dropdown-item" href="#">Contact Us</a>
+                     <a class="dropdown-item" href="#">Updates | FAQ</a>
+                     <a class="dropdown-item" href="#">Signup</a>
+                   </div>
+                 </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="#">About</a>
+               </li>
+               <li class="nav-item">   
+                 <a class="nav-link" href="#">Contact Us</a>
+               </li>
+               <li class="nav-item">   
+                   <a class="nav-link" href="#">Updates | FAQ</a>
+                 </li>
+                 <li class="nav-item">   
+                   <a class="nav-link" href="#">Signup</a>
+                 </li>
+             </ul>
+           </div>
+           
+           <button class='demo-button pt-1 pb-1 pr-3 pl-3'><a class="" href="#">Schedule  Demo</a></button> <!-- Navbar Button -->
+         </nav>
+         
+         <!-- Navbar Ends -->
           <!-- Banner Section Starts -->
 
 
           <div class="banner">
+          
                <div class="row last-content-row">
                   <div class="col-md-4 col-sm-12">
                      
@@ -1010,15 +1162,14 @@ blockquote hr{
                         <h1 class="mr-3 banner-title">Elevate your business <br>
                             using all-in-one social media <br>platform 
                         </h1>
-                        <p>Drive conversational engagement and practina’s easy-to-use, low-cost <br>system helps small businesses in social media marketing .</p>
+                        <p class="banner-para">Drive conversational engagement and practina’s easy-to-use, low-cost system<br> helps small businesses in social media marketing .</p>
                      </div>
                    </div>
                </div>
                <div class="row last-row">
                   <div class="col-md-4 mb-4 col-sm-12">
-
                   </div>
-                  <div class="col-md-4 mb-4 col-sm-12 mt-3">
+                  <div class="col-md-4 mb-4 col-sm-12 mt-5">
                      <ul class="unorder-list">
                          <li>
                              <a href="" ><img src="images/facebook.svg" alt="" class="ml-3"></a>
@@ -1031,7 +1182,7 @@ blockquote hr{
                          </li>
                      </ul>
                   </div>
-                  <div class="col-md-4 col-sm-12 mb-4" >
+                  <div class="col-md-4 col-sm-12 mb-4 mt-4" >
                     <div class="testimonials_buttons get_button">
                         <button class="banner-button  pt-1 pb-1 pr-3 pl-3 mt-3">Get Started <i class="fa fa-angle-right ml-4"></i></button>
                      </div>
@@ -1039,52 +1190,19 @@ blockquote hr{
                </div>
           </div>
           
-                <!-- <div class="banner">
-            <img src="images/banner.png" class=" img-fluid justify-content-right" alt="Snow" >
-            <div class="centered">
-                 <h1 style="text-align: right!important;">Elevate your business using all-in -one social media platform </h1> 
-                 <p class="mt-5" style="text-align: right!important;">Drive conversational engagement and practina’s easy-to-use, low-cost system helps small businesses in social media marketing .</p> 
-            </div>
-            <div class="centered-last-sec">
-                <ul>
-                    <li>
-                        <a href="" >
-                            <img src="images/facebook.svg" alt="">
-                        </a>
-                        <a href="" class="ml-2">
-                            <img src="images/twitter.svg" alt="">
-                        </a>
-                        <a href="" class="ml-2">
-                            <img src="images/Linkedin.svg" alt="">
-                        </a>
-                        <a href="" class="ml-2">
-                            <img src="images/youtube.svg" alt="">
-                        </a>
-                        <a href="" class="ml-2">
-                            <img src="images/instagram.svg" alt="">
-                        </a>
-                        <a href="" class="ml-2">
-                            <img src="images/pinterest.svg" alt="">
-                        </a>
-                        <a href="" class="ml-2">
-                            <img src="images/spotify.svg" alt="">
-                        </a>
-                        <a href="">
-                            <button class='demo-button start-button pt-1 pb-1 pr-3 pl-3 justify-content-right'><a class="" href="#">Schedule  Demo</a></button>
-                        </a>
-                    </li>   
-                </ul>
-            </div>
-          </div> -->
-          <!-- Banner Section Ends -->
-          
+       <!-- Navbar with Banner for web view End -->
+
+
+
+ 
           <!-- simple content section start -->
-            <div class="container">
+            <div class="container ">
                <div class="row">
                    <div class="col-md-6 col-sm-12">
                       <div class="text-title">
                          <h1>Simple and Affordable online marketing Plans</h1>
                          <p class="mt-4">Practina’s easy-to-use, low-cost system helps small businesses outperform their local competition by simplifying social media marketing to connect them with more customers.</p>
+                         <p>You can focus on other work and not be distracted by manual posting.</p>
                          <button class='getstart-button  pt-1 pb-1 pr-3 pl-3 mt-3'>Let's Start <i class="fa fa-angle-right ml-4"></i></button>
                         </div>
                    </div>
@@ -1093,22 +1211,75 @@ blockquote hr{
                    </div>
                </div>
             </div>
+
+
+
+             <!-- subscription section start -->
+               <div class=" mt-5 mb-5">
+                  <div class='container subscription mt-5'>
+                      <div class="row mt-5">
+                         <div class="col-md-12 text-center mt-5">
+                            <h1>Build your first NLP powered intelligent chatbot in <br> under 10 clicks</h1>
+                         </div>
+                      </div>
+                      <div class="row">
+                           <div class="col-md-12 mb-5">
+                               <div class='text-center'>
+                                   <button class='getstart-button-sec pt-1 pb-1 pr-3 pl-3 mt-3'>Request Demo<i class="fa fa-angle-right ml-4"></i></button>
+                                   <button class='getstart-button-sec pt-1 pb-1 pr-3 pl-3 mt-3 ml-3'>Let's Start<i class="fa fa-angle-right ml-4"></i></button>
+                                </div>
+                           </div>
+                      </div>
+                  </div>
+               </div>
+             <!-- subscription section start -->
+
             <div class="container mt-5">
                 <div class="row mt-5">
                     <div class="col-md-6 col-sm-12 ">
                         <img src="images/marketing.png" alt="" class="img-fluid">
                     </div>
-                    <div class="col-md-6 col-sm-12 mt-5">   
-                        <div class="text-title">
+                    <div class="col-md-6 col-sm-12 mt-5 grow-sec" >   
+                        <div class=".text-title-two">
                             <h1>Grow your audience and clients</h1>
-                            <p class="mt-4">Practina’s easy-to-use, low-cost system helps small businesses outperform their local competition by simplifying social media marketing to connect them with more customers.</p>
+                            <p class="mt-4  second-para" >Practina’s easy-to-use, low-cost system helps small businesses outperform their local competition by simplifying social media marketing to connect them with more customers.</p>
+                            <p class="mt-4  second-para">provides post ideas for every day.And our incredibly fast-powered graphics AI-editor lets you create impressive visual content in the blink of an eye.</p>
                             <button class='getstart-button  pt-1 pb-1 pr-3 pl-3 mt-3'>Let's Start <i class="fa fa-angle-right ml-4"></i></button>
-                           </div>
+                        </div>
                     </div>
                 </div>
              </div>
           <!-- simple content section start -->
-         
+
+
+          <!-- ceate boot Section Start -->
+            <div class="boot-section mt-5">
+               <div class="container boot-section-container  mt-5">
+                  <div class="row m-5">
+                     <div class="col-md-8 mt-5 pt-5">
+                           <div class="text-title">
+                             <h1>Start Building Your Bot Now</h1>
+                             <p class="mt-4">Create unlimited chatbots  for your website without coding to engage more visitors. With this simpledrag-and -drop visual tool we promise 3 things :</p>
+                             <ol> 
+                                <li><p>You will create chatbot that match your business.</p></li>
+                                <li><p>You will get them up and running in less then 15 minutes.</p></li>
+                                <li><p>you will pay $0 for keep them forever.</p></li>
+                             </ol>
+                             <!-- <p>1.You will create chatbot that match your business.</p>
+                             <p>2.You will get them up and running in less then 15 minutes.</p>
+                             <p>you will pay $0 for keep them forever.</p> -->
+                             <button class='getstart-button  pt-1 pb-1 pr-3 pl-3 mt-3'>Let's Start <i class="fa fa-angle-right ml-4"></i></button>
+                           </div>
+                     </div>
+                     <div class="col-md-4 mt-5 start-building-img">
+                        <img src="images/phone.png" alt="">
+                     </div>
+                  </div>
+               </div>
+            </div>
+          <!-- ceate boot Section End -->
+
+
           <!-- Reconnoitre Section start -->
             <div class="container aboutus-section mt-5">
               <div class="row">
@@ -1127,15 +1298,15 @@ blockquote hr{
                     <div class="col-md-4 mt-5">
                        <div>
                           <img src="images/template.png" alt="" class="img-fluid">
-                          <h5 class="mt-3">lead Generation</h5>
-                          <p>Instant notifications when customers show interest in your ads.</p>
+                          <h5 class="mt-3">Post templates</h5>
+                          <p>Highlight deals, and accomplishments using Practina’s easy-to-use templates</p>
                        </div>
                     </div>
                     <div class="col-md-4 mt-5">
                        <div>
-                           <img src="images/advertising.png" alt="" class="img-fluid">
-                           <h5 class="mt-3">lead Generation</h5>
-                           <p>Instant notifications when customers show interest in your ads.</p>
+                        <img src="images/add.png" alt="" class="img-fluid">
+                           <h5 class="mt-3">Smart Ads</h5>
+                           <p>Ads for Google at the click of button.</p>
                        </div>
                     </div>
               </div>
@@ -1143,22 +1314,22 @@ blockquote hr{
                 <div class="col-md-4 mt-5">
                      <div>
                          <img src="images/bot.png" alt="" class="img-fluid">
-                         <h5 class="mt-3">lead Generation</h5>
-                         <p>Instant notifications when customers show interest in your ads.</p>
+                         <h5 class="mt-3">Chatbot AI</h5>
+                         <p>Easily automate customer support 24/7 on all channels & devices via chat .</p>
                      </div>
                  </div>
                   <div class="col-md-4 mt-5">
                      <div>
                         <img src="images/marketing.png" alt="" class="img-fluid">
-                        <h5 class="mt-3">lead Generation</h5>
-                        <p>Instant notifications when customers show interest in your ads.</p>
+                        <h5 class="mt-3">Marketing specialist</h5>
+                        <p>Professional guidance and recommendations on your Socil media marketing strategy.</p>
                      </div>
                   </div>
                   <div class="col-md-4 mt-5">
                      <div>
                          <img src="images/writer.png" alt="" class="img-fluid">
-                         <h5 class="mt-3">lead Generation</h5>
-                         <p>Instant notifications when customers show interest in your ads.</p>
+                         <h5 class="mt-3">Create content</h5>
+                         <p>Customized Content tailored for your business.</p>
                      </div>
                   </div>
             </div>
@@ -1168,11 +1339,12 @@ blockquote hr{
 
           <!-- Customer Reviews section start -->
 
-          <div class="container mt-5">
+          <div class=" mt-5 customer-review">
             <div  id="testimonial_095" class="carousel slide testimonial_095_indicators testimonial_095_control_button thumb_scroll_x swipe_x ps_easeOutSine" data-ride="carousel" data-pause="hover" data-interval="5000" data-duration="2000">
                 <!-- Header of Slider -->
-                <div class="testimonial_095_header">
+                <div class="testimonial_095_header mb-5">
                     <h1 class="pt-5 pb-5">What Our Customers Say About Us</h1>
+                    <hr style="width: 65%; margin-top:-30px!important; margin-bottom: 2px!important;">
                 </div> <!-- /Header of Slider -->
                 <!-- Indicators -->
                 <ol class="carousel-indicators">
@@ -1180,13 +1352,13 @@ blockquote hr{
                     <li data-target="#testimonial_095" data-slide-to="1"></li>
                     <li data-target="#testimonial_095" data-slide-to="2"></li>
                 </ol> <!-- Wrapper For Slides -->
-                <div class="carousel-inner" role="listbox">
+                <div class="carousel-inner mt-5" role="listbox">
                     <!-- First Slide -->
                     <div class="carousel-item active">
                         <!-- Text Layer -->
                         <div class="row ">
                             <div class="col-md-6 mb-3">
-                                <div class="card" style="background-image: linear-gradient(to right, #0177a2, #00ABBD) !important;">
+                                <div class="card"   >
                                     <div class="quote " style=" border-radius: 10px;">
                                         <blockquote>
                                             <p>
@@ -1207,20 +1379,20 @@ blockquote hr{
                                 </div>
                             </div>
                             <div class="col-md-6 mb-3">
-                                <div class="card" style="background-image: linear-gradient(to right, #0177a2, #00ABBD) !important;">
+                                <div class="card"   >
                                     <div class="quote " style=" border-radius: 10px;">
                                         <blockquote>
                                             <p>
-                                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. 
+                                                With this site I can easily manage not only one but six social networks simultaneously. This means I don't have to login or even open my other social accounts.
                                             </p>
                                             <hr style="width: 80%; margin-top:2px!important; margin-bottom: 2px!important;">
                                         </blockquote>                        
                                     </div>
                                     <div class="quote-footer text-right mt-4">
                                         <div class="quote-author-img">
-                                            <img class='mrl-2' src="images/testimonials.png" alt="">
+                                            <img class='mrl-2' src="images/user.jpg" alt="">
                                         </div>
-                                        <h4 class="mt-4">Anetasia melinda</h4>
+                                        <h4 class="mt-4"> Andrew Anthone</h4>
                                         <p>
                                             <strong>Content Writer</strong>
                                         </p>
@@ -1236,14 +1408,14 @@ blockquote hr{
                         <!-- Text Layer -->
                         <div class="row">
                             <div class="col-md-6 mb-3">
-                                <div class="card" style="background-image: linear-gradient(to right, #0177a2, #00ABBD) !important;">
+                                <div class="card"   >
                                     <div class="quote " style=" border-radius: 10px;">
                                         <blockquote>
                                             <p>
                                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. 
                                             </p>
                                             <hr style="width: 80%; margin-top:2px!important; margin-bottom: 2px!important;">
-                                        </blockquote>                        
+                                        </blockquote>                  
                                     </div>
                                     <div class="quote-footer text-right mt-4">
                                         <div class="quote-author-img">
@@ -1257,7 +1429,7 @@ blockquote hr{
                                 </div>
                             </div>
                             <div class="col-md-6 mb-3">
-                                <div class="card" style="background-image: linear-gradient(to right, #0177a2, #00ABBD) !important;">
+                                <div class="card"   >
                                     <div class="quote " style=" border-radius: 10px;">
                                         <blockquote>
                                             <p>
@@ -1285,7 +1457,7 @@ blockquote hr{
                         <!-- Text Layer -->
                         <div class="row">
                             <div class="col-md-6 mb-3">
-                                <div class="card" style="background-image: linear-gradient(to right, #0177a2, #00ABBD) !important;">
+                                <div class="card"   >
                                     <div class="quote " style=" border-radius: 10px;">
                                         <blockquote>
                                             <p>
@@ -1306,7 +1478,7 @@ blockquote hr{
                                 </div>
                             </div>
                             <div class="col-md-6 mb-3">
-                                <div class="card" style="background-image: linear-gradient(to right, #0177a2, #00ABBD) !important;">
+                                <div class="card">
                                     <div class="quote " style=" border-radius: 10px;">
                                         <blockquote>
                                             <p>
@@ -1335,7 +1507,7 @@ blockquote hr{
                 <div class="row mt-5" style="text-align: center;">
                   <div class="col-md-12">
                      <div class="testimonials_buttons">
-                        <button class="getstart-button  pt-1 pb-1 pr-3 pl-3 mt-3">See All Reviws <i class="fa fa-angle-right ml-4"></i></button>
+                        <button class="getstart-button-sec  pt-1 pb-1 pr-3 pl-3 mt-3">See All Reviws <i class="fa fa-angle-right ml-4"></i></button>
                      </div>
                    </div>
                 </div>
@@ -1351,7 +1523,7 @@ blockquote hr{
         </div>  
           <!-- Customer Reviews Section Ends --> 
          <!--  PAckage Section starts -->
-            <div class="container mt-5 mb-5">
+            <!-- <div class="container mt-5 mb-5">
                 <div class="row">
                     <div class="col-md-12 mt-5">
                        <div class="package_title mt-5 justify-content-center"  >
@@ -1441,7 +1613,141 @@ blockquote hr{
                      </div>
                  </div>
                 </div>
-            </div>
+            </div> -->
          <!--  PAckage Section starts -->
+
+
+<!-- Footer -->
+
+<footer id="footer" class="footer wow fadeIn">
+    
+    <div class="footer-top">
+        <div class="container">
+            <div class="row ">
+                <div class="co-md-12">
+                   
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-12 mt-4">
+                 <!-- About Widget -->
+                 <div class="single-widget about">
+                        <!-- <h5>Office Location</h5> -->
+                        
+                        <ul class="list list-one">
+                            <a href=""><img src="images/logoimage.png" alt="" class=" mb-3"></a>
+                            <!-- <h6>Contact</h6> -->
+                            <li><i class="fa fa-map-marker"></i> <br>Bestech Business Tower , Mohali, Punjab</li>
+                            <!-- <li><i class="fa fa-headphones"></i>Phone: +91 8968711197</li> -->
+                            <li><i class="fa fa-envelope"></i><br><a href="mailto:info@youremail.com">abctest@gmail.com</a></li>
+                            <li><i class="fa fa-phone"></i><br><a href="mailto:info@youremail.com">+91 9852136476</a></li>
+                        </ul>	
+                    </div>
+                    <!--/ End About Widget -->
+                   
+                </div>
+                
+                <div class="col-lg-3 col-md-6 col-12 mt-4">
+                    <!-- Twitter Widget -->
+                    <div class="single-widget " >
+                        <ul class="list">
+                            <h5 class="mb-4">Company</h5>
+                            <li class="mb-3"><a href="index.php">Home</a></li>
+                            <li class="mb-3"><a href="#">Features</a></li>
+                            <li class="mb-3"><a href="#">About Us</a></li>   
+                            <li class="mb-3"><a href="#">Contact Us</a></li>
+                            <li class="mb-3"><a href="#">Update Us</a></li>
+                        </ul>
+                    </div>
+                    <!--/ End Twitter Widget -->
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 mt-4">
+                     <!-- Links Widget -->
+                     <div class="single-widget links" >
+                        <!-- <h5>Quick Links</h5> -->
+                        <ul class="list">
+                            <h5 class="mb-4">Solutions</h5>
+                            <li class="mb-3"><a href="index.html">Agent Assist Bot</a></li>
+                            <li class="mb-3"><a href="services.html">Customer Engagement</a></li>
+                            <li class="mb-3"><a href="about-us.html">Field Sales AI</a></li>   
+                            <li class="mb-3"><a href="contact.html">Customer Support</a></li>
+                            <li class="mb-3"><a href="contact.html">Lead Gen AI</a></li>
+                        </ul>
+                    </div>
+                    <!--/ End Links Widget -->
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 mt-4">
+                    <!-- Links Widget -->
+                    <div class="single-widget links" >
+                        <!-- <h5>Resources</h5> -->
+                        <ul class="list">
+                            <h5 class="mb-4">Resources</h5>
+                            <li class="mb-3"><a href="privacypolicy.html">Privacy Policy</a></li>
+                            <li class="mb-3"><a href="terms.html">Terms of Services</a></li>
+                            <li class="mb-3"><a href="disclaimer.html">Disclaimer</a></li>
+                        </ul>
+                    </div>
+                    <!--/ End Links Widget -->
+                </div>	
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom mt-5">
+    <div class='container'>
+       <div class="row">
+           <div class="col-md-6 col-sm-12">
+           <div class="bottom-top">
+                    <ul class="unorder-list-footer pt-2 ">
+                        <li>
+                            <a href="" ><img src="images/facebook.svg" alt="" class=""></a>
+                            <a href="" ><img src="images/twitter.svg" alt="" class="ml-3"></a>
+                            <a href=""><img src="images/Linkedin.svg" alt="" class="ml-3"></a>
+                            <a href=""><img src="images/youtube.svg" alt="" class="ml-3"></a>
+                            <a href=""><img src="images/instagram.svg" alt="" class="ml-3"></a>
+                            <a href=""><img src="images/pinterest.svg" alt="" class="ml-3"></a>
+                            <a href=""><img src="images/spotify.svg" alt="" class="ml-3 spotify"></a>
+                        </li>
+                    </ul>
+                </div>
+           </div>
+           <div class="col-md-6 col-sm-12 app-button-col"  >
+               <ul class="app-button"  >
+                    <li >
+                        <a href=""  ><img src="images/appstore.png" alt="" class=""></a>
+                        <a href="" ><img src="images/googlestore.png" alt="" class=""></a>
+                    </li>
+               </ul>
+           </div>
+       </div>
+    </div>
+    </div>
+
+
+    <!--/ End Footer Top -->
+    <!-- Footer Bottom -->
+    <!-- <div class="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="bottom-top">
+                       <ul class="unorder-list-footer">
+                           <li>
+                              <a href="" ><img src="images/facebook-footer.svg" alt="" class="ml-3"></a>
+                              <a href="" ><img src="images/twitter-footer.svg" alt="" class="ml-3"></a>
+                              <a href=""><img src="images/Linkedin-footer.svg" alt="" class="ml-3"></a>
+                              <a href=""><img src="images/youtube-footer.svg" alt="" class="ml-3"></a>
+                              <a href=""><img src="images/instagram-facebook.svg" alt="" class="ml-3"></a>
+                              <a href=""><img src="images/pinterest-footer.svg" alt="" class="ml-3"></a>
+                              <a href=""><img src="images/spotify-footer.svg" alt="" class="ml-3 spotify"></a>
+                           </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!--/ End Footer Bottom -->
+</footer>
+<!--/ End footer -->
     </body>
 </html>    
